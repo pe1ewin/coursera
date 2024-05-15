@@ -12,9 +12,9 @@
 
 // DO NOT attach the speakWord variable to the 'byeSpeaker' object.
 (function(window) {
-  var speakWord = "Good Bye";
+  var SpeakWord = "Good Bye";
   var byeSpeaker = function (name) {
-    console.log(speakWord + " " + name)
+    console.log(SpeakWord + " " + name)
   }
   window.byeSpeaker = byeSpeaker;
 })(window);
